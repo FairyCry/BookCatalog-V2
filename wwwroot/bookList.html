@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">    
+    <head>
+       <meta charset="UTF-8">
+       <title>Список Книг</title>
+       <style>
+            body {
+                background-color: #505050;
+                color: #d4d4d4;
+                }
+                #pagination-controls {
+                margin-top: 20px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="booksList"></ul>
+        <div id="pagination-controls">
+            <button id="prevPageBtn" onclick="prevPage()" disabled>← Назад</button>
+            <span id="pageInfo">Страница 1</span>
+            <button id="nextPageBtn" onclick="nextPage()">Вперёд →</button>
+            <span id="totalPagesInfo"></span>
+        </div>
+        <br><br>
+        <div>
+            <input type="number" min="1" size="2" step="1" onkeydown="return false" id="willGoToPageNumber"> 
+            <button id="button" onclick="goToPage()">Отправиться</button>
+        </div>
+        <br><br><button onclick="window.location.href='index.html'">Вернуться</button>
+        <script src="script.js"></script>
+    </body>
+</html>

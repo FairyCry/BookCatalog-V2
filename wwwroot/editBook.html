@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">    
+    <head>
+       <meta charset="UTF-8">
+       <title>Редактирование</title>
+       <style>
+            body {
+                background-color: #505050;
+                color: #d4d4d4;
+                }
+        </style>
+    </head>
+    <body>  
+        <div>
+            <input id="newNameInput" type="text" oninput="checkLentgh(this)" placeholder="Введите новое Название">
+            <button onclick="editBook()" disabled id="sendDataToServerBtn">Изменить</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
