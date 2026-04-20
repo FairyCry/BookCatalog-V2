@@ -39,9 +39,9 @@
 - База данных создаётся автоматически при первом запуске (файл bookslist.db)
 - Если меняешь модель, удали старый .db файл, чтобы EF Core создал таблицы заново
 - Навигация:
-  1. index.html (главная)
-  2. addBook.html / addAuthor.html (Добавление книги / Автора)
-  3. bookList.html / authorList.html (Список книг / Авторов)
+1. index.html (главная)
+2. addBook.html / addAuthor.html (Добавление книги / Автора)
+3. bookList.html / authorList.html (Список книг / Авторов)
 
 ## Комментарий автора
 
